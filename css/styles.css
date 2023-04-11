@@ -1,0 +1,65 @@
+/*.nav{
+    float:right;
+}
+.nav li{
+    float: right;
+    
+}*/
+/*------------ HEADER ------------*/
+#header {
+    background: #4e5944 url(../images/home11.jpg) repeat-x left bottom;
+    padding: 20px 0 26px;
+    }
+    /** logo **/
+    .logo {
+    
+     display: inline-block;
+    }
+    /** navigation **/
+    .navigation {
+    float: right;
+    list-style: none;
+    margin: 28px;
+    padding: 28;
+    }
+    .navigation li {
+    float: left;
+    margin-left: 30px;
+    position:relative;
+    }
+    .navigation li > a {
+    color: #b8c6ac;
+    font: bold 13px/24px Times, "Times New Roman", serif;
+    text-decoration: none;
+    text-shadow: 1px 1px #000;
+    text-transform: uppercase;
+    text-decoration: underline;
+    }
+    .navigation li.active > a .navigation li > a:hover {
+    color: #fff;
+    text-decoration: underline;
+    }
+    .navigation li > div {
+    background-color: #888888;
+    display: none;
+    width: 110px;
+    position: absolute;
+    left: 0px;
+    top: 24px;
+    }
+    .navigation li:hover > div {
+    display: block;
+    }
+    .navigation li > div a {
+    color: #b8c6ac;
+    font: bold 13px/24px "Times New Roman", Times, serif;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    text-decoration: underline;
+    }
+    .navigation li > div a:hover {
+    color: #fff;
+    text-decoration: underline;
+    }
